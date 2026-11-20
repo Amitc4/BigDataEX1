@@ -31,8 +31,15 @@ Q4: the number of files changed from 3 to 6. each reducer tasks writes its own s
 Q5: Merged Map outputs represents the total number of intermediate map output segments (partitions) that were fetched by all Reducer tasks and merged (sorted together) before being passed into the reduce function.
 During the Shuffle and Sort phase, every Reducer task must fetch its assigned partition from every Map task and merge those outputs into a single sorted input stream.
 
+PART 2:
+The change is in the mapper
+the code is in the repository in mapper.py
 
-The output of the MapReduce after applying the changes to only display the top 3
+PART 3:
+The change is in the reducer
+the code is in the repository in reducer.py
+
+The output of the MapReduce after applying the changes to only display the top 3:
 
 the     74369
 
